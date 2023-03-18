@@ -1,0 +1,27 @@
+footer {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  background-color: var(--color-dark);
+}
+
+footer p{
+  color: var(--color-light);
+  font-size: 1.5rem;
+}
+
+@media (max-width: 420px) {
+  footer {
+    padding: 0;
+  }
+  footer p{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 360px) {
+  
+}
