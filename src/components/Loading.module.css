@@ -1,0 +1,23 @@
+.temporizador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 5px solid var(--color-dark-blue);
+  color: var(--color-dark-blue);
+  transform: scale(0.8);
+  transition: .2s;
+  animation: 1s entrando infinite;
+  user-select: none;
+
+}
+
+@keyframes entrando {
+  to {
+    transform: scale(1);
+  }
+}
